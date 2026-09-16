@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A short, practical beta course for CE-Deploy Partner Plus. Activate your gifted membership, connect Webex and start working with customer organizations.">
+<meta name="theme-color" content="#142d35"><title>Partner Plus field guide · CE-Deploy</title>
+<link rel="icon" href="assets/ce-deploy-logo.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="course.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to course</a>
+<aside class="rail">
+<a class="brand" href="#welcome"><img src="assets/ce-deploy-logo.svg" width="44" height="44" alt=""><span>CE-Deploy<small>PARTNER FIELD GUIDE</small></span></a>
+<div class="rail-label">YOUR FIRST 30 MINUTES</div>
+<nav aria-label="Course lessons">
+<a href="#welcome" aria-current="location"><span class="nav-number">00</span> Start here</a>
+<a href="#install"><span class="nav-number">01</span> Get ready</a>
+<a href="#membership"><span class="nav-number">02</span> Activate your gift</a>
+<a href="#connect"><span class="nav-number">03</span> Connect Webex</a>
+<a href="#customers"><span class="nav-number">04</span> Choose customers</a>
+<a href="#first-task"><span class="nav-number">05</span> Make your first read</a>
+<a href="#manage"><span class="nav-number">06</span> Switch & reconnect</a>
+<a href="#feedback"><span class="nav-number">07</span> Share your findings</a>
+</nav>
+<div class="progress-panel"><div><strong id="progressText">0 of 7 complete</strong><span id="progressPercent">0%</span></div><progress id="courseProgress" max="7" value="0" aria-label="Lessons completed"></progress><small>Progress stays in this browser.</small><button class="reset" id="resetProgress" type="button">Reset progress</button></div>
+<a class="rail-help" href="#troubleshooting">Need a hand? <span aria-hidden="true">↗</span></a>
+</aside>
+<main id="main">
+<header class="hero" id="welcome">
+<div class="hero-top"><span class="eyebrow"><span class="pulse"></span> PARTNER PLUS · BETA COURSE</span><span class="edition">16.4.0 / FIELD EDITION 01</span></div>
+<div class="hero-grid"><div><h1>Your customers.<br>Your familiar tools.<br><em>One place to work.</em></h1><p class="hero-copy">Get comfortable with CE-Deploy’s new partner and external-administrator access, from your gifted membership to your first customer task.</p><a class="button light" href="#install">Start the field guide <span aria-hidden="true">→</span></a></div>
+<div class="journey" aria-label="Your journey: membership, Webex sign-in, customer selection, existing CE-Deploy tools"><span class="journey-label">THE ROUTE</span><div><b>01</b><span>Your membership<small>Unlock Partner Plus</small></span></div><i></i><div><b>02</b><span>Your Webex account<small>Bring your customer access</small></span></div><i></i><div><b>03</b><span>Your customer<small>Choose where you work</small></span></div><i></i><div><b>04</b><span>CE-Deploy tools<small>Use the flow you already know</small></span></div></div></div>
+<div class="hero-facts"><span><strong>6 months</strong> gifted Partner Plus</span><span><strong>4 computers</strong> per membership</span><span><strong>30 customers</strong> selected per computer</span><span><strong>20–30 min</strong> at your own pace</span></div>
+</header>
+<div class="content">
+<div class="release-note"><span class="tag">DOWNLOAD COMING SOON</span><p>The beta release is being prepared. You can explore this guide now; wait for Chris to confirm the build is ready before starting the app exercises. The planned release link may show “Not Found” until it is published.</p></div>
+<div class="intro-grid"><div><h2>Thank you for helping shape this.</h2><p>You’ll receive six months of Partner Plus as a thank-you for testing. Your feedback will help confirm customer discovery, everyday workflows and recovery in real partner environments.</p></div><div class="scope"><strong>For this beta</strong><p>Commercial Webex customer access. Partner and customer-assigned external administrators use the same CE-Deploy tools. Delegated FedRAMP is coming later.</p></div></div>
+<section class="lesson" id="install" data-lesson="install">
+<div class="lesson-heading"><span class="chapter">01</span><div><span class="eyebrow">GET READY · 3 MIN</span><h2>Get your invitation and install.</h2></div></div>
+<ol class="steps"><li><strong>Message Chris on Webex.</strong> Send the email address you want associated with your Buy Me a Coffee (BMC) gift. If you already sent it directly, there’s no need to send it again.</li><li><strong>Wait for gift confirmation.</strong> Chris will arrange your six-month Partner Plus membership. Use that same email for membership sign-in inside CE-Deploy.</li><li><strong>Install the beta when it is available.</strong> Download the installer for your operating system from the GitHub release. Quit an older CE-Deploy instance before installing. Keep a copy of important local work and check the release notes for changes.</li></ol>
+<div class="actions"><button class="button" data-copy="christno@cisco.com" type="button">Copy Webex contact</button><a class="button secondary" href="https://github.com/voipnorm/CE-Deploy/releases/tag/v16.4.0-beta" target="_blank" rel="noopener">Planned beta release <span aria-hidden="true">↗</span></a></div>
+<p class="caption">Webex Messages: <strong>christno@cisco.com</strong>. Open Webex, start a message and find Chris using this address. The button copies the address; it does not send a message.</p>
+<div class="check"><label><input type="checkbox" data-complete="install"><span>I have gift confirmation and the beta app is installed.</span></label></div>
+</section>
+<section class="lesson" id="membership" data-lesson="membership">
+<div class="lesson-heading"><span class="chapter">02</span><div><span class="eyebrow">MEMBERSHIP · 4 MIN</span><h2>Activate your six-month gift.</h2></div></div>
+<div class="identity"><h3>Two sign-ins. Two different jobs.</h3><div class="identity-grid"><div><span class="mini-label">MEMBERSHIP</span><strong>Your gifted email</strong><p>Activates Partner Plus and authorizes this computer.</p></div><span class="different" aria-hidden="true">≠</span><div><span class="mini-label">WEBEX</span><strong>Your administrator account</strong><p>Determines which customer organizations you can access.</p></div></div><p class="identity-bottom">The email addresses can be different. Activating membership does not grant Webex permissions.</p></div>
+<ol class="steps"><li>Open <strong>Settings → Membership</strong> in CE-Deploy.</li><li>Enter the email associated with your gift and choose <strong>Continue</strong>. Retrieve the verification code from your email, enter it, and choose <strong>Sign in</strong>.</li><li>Choose <strong>Activate Partner Plus</strong> if offered. If you already have Pro or a trial, choose <strong>Refresh membership</strong> to check your gift.</li><li>Confirm <strong>Partner Plus is active on this computer</strong>. Expand <strong>Manage computers</strong> and choose <strong>Load computers</strong> to see your activations.</li></ol>
+<div class="expected"><span class="check-icon" aria-hidden="true">✓</span><div><strong>You’re ready when…</strong><p>Membership shows Partner Plus and a four-computer allowance. This gifted test does not require starting another trial.</p></div></div>
+<details><summary>How do the six months and offline access work?</summary><p>Your gift provides six months of membership, but an individual offline entitlement lasts at most 30 days and renews while you remain eligible and online. A shorter <strong>Offline access until</strong> date is therefore normal. Gift-derived access must not extend beyond the gift’s BMC end date.</p><p>When the gift ends, Plus access depends on any other eligible membership or remaining trial. Otherwise Plus-only operations stop; your saved customer selections do not themselves grant access. The gift does not start a paid subscription from within CE-Deploy. Any existing paid subscription is separate.</p></details>
+<details><summary>Using an employee’s laptop or a second computer</summary><p>The membership owner authorizes each activation, up to four computers. That computer’s user may then sign into Webex with their own account. On an employee’s laptop, use <strong>Finish owner setup</strong> after activation to finish the handoff. The owner will need to verify again for computer management. Each computer keeps its own customer selection.</p></details>
+<div class="check"><label><input type="checkbox" data-complete="membership"><span>Partner Plus is active on this computer.</span></label></div>
+</section>
+<section class="lesson" id="connect" data-lesson="connect">
+<div class="lesson-heading"><span class="chapter">03</span><div><span class="eyebrow">WEBEX ACCESS · 4 MIN</span><h2>Bring your administrator access.</h2></div></div>
+<ol class="steps"><li>Open <strong>Organizations → Add Organization</strong>.</li><li>Choose <strong>Partner / External administrator</strong>. Choose Organization administrator only when using the ordinary direct-organization setup.</li><li>Select <strong>Cloud — Webex Control Hub (Commercial)</strong>. Delegated FedRAMP is not enabled for this beta. This customer-access route has no On-Premise choice.</li><li>Choose <strong>Connect Webex</strong> if prompted. Sign in with the Webex account assigned to your customers. Complete your organization’s normal sign-in steps.</li></ol>
+<div class="shots two"><figure><a href="assets/p1-access-choice.png" target="_blank" rel="noopener" aria-label="Open administrator-choice screenshot at full size"><img src="assets/p1-access-choice.png" alt="Add Organization modal with Organization administrator and Partner / External administrator options" loading="lazy" width="501" height="420"></a><figcaption>Choose the customer-access route.</figcaption></figure><figure><a href="assets/p1-cloud-choice.png" target="_blank" rel="noopener" aria-label="Open cloud-choice screenshot at full size"><img src="assets/p1-cloud-choice.png" alt="Customer connection options showing Commercial Cloud and an unavailable FedRAMP option" loading="lazy"></a><figcaption>Commercial Webex is the beta target.</figcaption></figure></div>
+<p class="caption">Screenshots throughout this guide use demonstration data from beta builds. Small visual differences may appear in your release. Select an image to enlarge it.</p>
+<div class="expected"><span class="check-icon" aria-hidden="true">✓</span><div><strong>You’re ready when…</strong><p>Customer organizations load automatically after Webex sign-in. No manual token copy or paste is needed.</p></div></div>
+<div class="check"><label><input type="checkbox" data-complete="connect"><span>My Webex account connected and customer discovery returned a result.</span></label></div>
+</section>
+<section class="lesson" id="customers" data-lesson="customers">
+<div class="lesson-heading"><span class="chapter">04</span><div><span class="eyebrow">CUSTOMER SELECTION · 3 MIN</span><h2>Keep the customers you work with close.</h2></div></div>
+<p>CE-Deploy combines available organizations from partner-admin and external-admin discovery. Your account may have different kinds of access to different customers.</p>
+<ol class="steps"><li>Select one or two permitted test customers from the list. Use search when it is available for a larger directory.</li><li>Choose <strong>Save and return to Organizations</strong>. You can select up to <strong>30 customers on this computer</strong>.</li><li>Find the customer card, identified as partner/external-admin access, and choose <strong>Activate</strong>.</li></ol>
+<figure class="shot"><a href="assets/p1-customer-selection.png" target="_blank" rel="noopener" aria-label="Open customer-selection screenshot"><img src="assets/p1-customer-selection.png" alt="Customer selection with Customer A and Customer B selected, 2 of 30 selected and Save and return to Organizations" loading="lazy" width="750" height="308"></a><figcaption>This example shows a partial directory result. A partial result is not proof that a missing customer assignment has been removed.</figcaption></figure>
+<div class="note"><strong>Local selection, shared membership.</strong><p>The four computers share the membership’s activation allowance. Their customer lists are independent. Selecting or removing a customer in CE-Deploy does not grant or remove access in Control Hub.</p></div>
+<div class="check"><label><input type="checkbox" data-complete="customers"><span>My test customer is saved and active in Organizations.</span></label></div>
+</section>
+<section class="lesson" id="first-task" data-lesson="first-task">
+<div class="lesson-heading"><span class="chapter">05</span><div><span class="eyebrow">FIRST TASK · 5 MIN</span><h2>Read first. Confirm where you are.</h2></div></div>
+<p>Customer organizations use the familiar CE-Deploy target and result screens. Start with a read to confirm your customer and device selection.</p>
+<ol class="steps"><li>Confirm the intended customer is active in the organization switcher.</li><li>Open the existing <strong>xAPI command</strong> workflow. Enter <code>xStatus Audio Volume</code> for a permitted device that provides that status.</li><li>Use the normal target options to load the customer’s devices. Choose one known test device and review the target before running the read.</li><li>Check the response and normal result/history view. Verify that the device and returned result belong to the customer you selected.</li></ol>
+<div class="command"><span>READ-ONLY EXERCISE</span><code>xStatus Audio Volume</code><button data-copy="xStatus Audio Volume" type="button" aria-label="Copy read-only xStatus command">Copy command</button></div>
+<p>If that API is unavailable on your test device, use an appropriate read you already know for it, or report the API response. CE-Deploy does not decide product support from a device-model list; the device and Webex determine the result.</p>
+<div class="expected"><span class="check-icon" aria-hidden="true">✓</span><div><strong>You’re ready when…</strong><p>You can load the correct customer’s inventory and obtain the expected response through the normal tools, without a “token required” prompt.</p></div></div>
+<details><summary>Optional: one reversible volume change</summary><p>Only use a designated device where you have permission to change the volume. First read and record its original value. Run <code>xCommand Audio Volume Set Level: 50</code>, read back with <code>xStatus Audio Volume</code>, then restore the recorded original value and read it again.</p><p>Use the full command including <strong>Set Level:</strong>. Do not repeat an entire deployment blindly after a partial failure—inspect the returned device result first.</p></details>
+<div class="check"><label><input type="checkbox" data-complete="first-task"><span>I completed a read against the intended customer device.</span></label></div>
+</section>
+<section class="lesson" id="manage" data-lesson="manage">
+<div class="lesson-heading"><span class="chapter">06</span><div><span class="eyebrow">DAILY WORK · 4 MIN</span><h2>Switch customers with confidence.</h2></div></div>
+<figure class="shot"><a href="assets/p1-organization-cards.png" target="_blank" rel="noopener" aria-label="Open customer organization cards screenshot"><img src="assets/p1-organization-cards.png" alt="Two demonstration customer cards, one marked active and another with an Activate button" loading="lazy" width="947" height="268"></a><figcaption>Activate a customer card or use the fast switcher. Check the active customer before each task.</figcaption></figure>
+<div class="task-grid"><article><span class="mini-label">SWITCH</span><h3>Try customer B</h3><p>Choose another saved customer in the fast switcher. Confirm its active tick and load its inventory. Close and reopen standalone tool windows after switching customers.</p></article><article><span class="mini-label">REFRESH</span><h3>Renew Webex access</h3><p>Open a customer card’s menu and choose <strong>Refresh Token</strong>. Complete Webex sign-in if requested. Token status is refreshed for customers using that connection.</p></article><article><span class="mini-label">DISCOVER</span><h3>Add a new assignment</h3><p>Choose <strong>Manage customer selection</strong>. The directory loads again automatically. Select newly available customers and save. Webex assignment changes can take time to appear.</p></article><article><span class="mini-label">RESTART</span><h3>Come back tomorrow</h3><p>Quit and reopen the installed app. Activate the saved customer, load its devices and repeat the read. Your membership and Webex connection are separate checks.</p></article></div>
+<div class="check"><label><input type="checkbox" data-complete="manage"><span>I checked switching or refresh, then confirmed access after restart.</span></label></div>
+</section>
+<section class="lesson" id="feedback" data-lesson="feedback">
+<div class="lesson-heading"><span class="chapter">07</span><div><span class="eyebrow">BETA FEEDBACK · 3 MIN</span><h2>Tell us what happened.</h2></div></div>
+<p>Send a Webex message to <strong>christno@cisco.com</strong>. A clear failure report is just as valuable as a pass. Nothing on this site submits your progress or sends a message automatically.</p>
+<div class="report"><div class="report-heading"><strong>Your field report</strong><button id="copyReport" type="button">Copy template</button></div><pre id="reportTemplate">CE-Deploy Partner Plus beta
+App version:
+OS and version:
+Webex role: Partner Administrator / External administrator / Unsure
+Gifted Plus activation: Pass / Fail / Not tested
+Expected assigned customers found: Pass / Partial / Fail
+Correct customer devices loaded: Pass / Fail / Not tested
+Read-only task: Pass / Fail / Not tested
+Switch / refresh / restart: Pass / Fail / Not tested
+
+If something failed:
+Screen and action:
+Expected result:
+Actual result / sanitized error:
+Can you reproduce it?
+
+Other feedback:</pre></div>
+<p class="caption">Use aliases such as Customer A. Remove customer names, IDs, email addresses, tokens, verification codes and configuration secrets from screenshots and logs. Never send a token to troubleshoot this course.</p>
+<div class="actions"><button class="button" data-copy="christno@cisco.com" type="button">Copy Webex contact</button><a class="button secondary" href="https://web.webex.com" target="_blank" rel="noopener">Open Webex <span aria-hidden="true">↗</span></a></div>
+<div class="check"><label><input type="checkbox" data-complete="feedback"><span>I sent my results or a defect report to Chris on Webex.</span></label></div>
+<div id="completion" class="completion" hidden><span class="eyebrow">FIELD GUIDE COMPLETE</span><h3>You’re ready to put Partner Plus to work.</h3><p>Thank you for testing. Keep using your normal tools with permitted customers, and send Chris anything that feels unclear or behaves unexpectedly.</p></div>
+</section>
+<section id="troubleshooting" class="troubleshooting"><span class="eyebrow">QUICK RECOVERY</span><h2>If something gets in the way.</h2>
+<details><summary>The download link says “Not Found.”</summary><p>The release is planned but may not be published yet. Wait for Chris’s availability message. Don’t substitute an older release when testing these new capabilities.</p></details>
+<details><summary>Membership still shows Pro or offers a trial.</summary><p>Confirm that Chris issued the gift to the email you used for membership sign-in. Choose <strong>Refresh membership</strong>, then sign in again if prompted. Activate Partner Plus if offered. If it is still missing, send Chris the status message and app version. Do not start a trial to work around a missing gift.</p></details>
+<details><summary>I can’t find the email verification code.</summary><p>Check your spam or junk folder and confirm the address shown in the sign-in screen. Use <strong>Resend code</strong> when available and use the newest code. Never share the code with support.</p></details>
+<details><summary>My customers are missing, or discovery is partial.</summary><p>Check the Webex account you connected and its actual assignments. Partner-admin and external-admin directories can respond differently. Reopen <strong>Manage customer selection</strong> and use <strong>Try again</strong> if offered. If one source fails, successful results may still appear and saved selections are retained. Report expected versus found counts using aliases; a partial list alone does not prove lost permission.</p></details>
+<details><summary>There’s a “token required,” 401 or 403 error.</summary><p>Confirm the active customer and use its card’s <strong>Refresh Token</strong> action. Close and reopen standalone tools after changing customers. A 403 can indicate insufficient Webex permissions; reconnecting cannot grant a missing role. If it persists, report the tool, action and sanitized message instead of pasting a token manually.</p></details>
+<details><summary>No endpoints load in a tool.</summary><p>Check the selected customer, deployment target and any filters. Try a known customer device. An empty inventory and a failed request are different results—include the exact status message in your report. Don’t switch to an unrelated organization just to make a deployment proceed.</p></details>
+<details><summary>All four computer slots are used.</summary><p>In Membership, open <strong>Manage computers → Load computers</strong>. Verify the membership owner if requested. Compare the short identifiers and reclaim only a computer you intend to deactivate, then activate the replacement. Signing out does not free a slot. Saved work is separate from membership activation.</p></details>
+</section>
+<footer><a class="brand footer-brand" href="#welcome"><img src="assets/ce-deploy-logo.svg" width="32" height="32" alt=""><span>CE-Deploy</span></a><p>Partner Plus field guide · Beta 16.4.0<br>No analytics, learner accounts or progress uploads. Progress is stored on this browser only.</p><button class="text-button" id="printGuide" type="button">Print / save as PDF</button></footer>
+</div>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><div class="no-script">The full course is available without JavaScript. Progress saving and copy buttons require JavaScript; select the contact address or template to copy it manually.</div></noscript>
+</body></html>

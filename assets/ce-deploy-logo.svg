@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <!-- Gradient for the main logo -->
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="50%" style="stop-color:#1D4ED8"/>
+      <stop offset="100%" style="stop-color:#1E40AF"/>
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Circuit pattern gradient -->
+    <linearGradient id="circuitGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#0F172A" opacity="0.9"/>
+  
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="url(#logoGradient)" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Circuit lines emanating from logo -->
+  <g stroke="url(#circuitGradient)" stroke-width="2" fill="none" opacity="0.6">
+    <!-- Top circuit -->
+    <path d="M100 15 L100 35"/>
+    <circle cx="100" cy="12" r="3" fill="#60A5FA"/>
+    
+    <!-- Top right circuit -->
+    <path d="M160 40 L145 55"/>
+    <circle cx="163" cy="37" r="3" fill="#60A5FA"/>
+    
+    <!-- Right circuit -->
+    <path d="M185 100 L165 100"/>
+    <circle cx="188" cy="100" r="3" fill="#60A5FA"/>
+    
+    <!-- Bottom right circuit -->
+    <path d="M160 160 L145 145"/>
+    <circle cx="163" cy="163" r="3" fill="#60A5FA"/>
+    
+    <!-- Bottom circuit -->
+    <path d="M100 185 L100 165"/>
+    <circle cx="100" cy="188" r="3" fill="#60A5FA"/>
+    
+    <!-- Bottom left circuit -->
+    <path d="M40 160 L55 145"/>
+    <circle cx="37" cy="163" r="3" fill="#60A5FA"/>
+    
+    <!-- Left circuit -->
+    <path d="M15 100 L35 100"/>
+    <circle cx="12" cy="100" r="3" fill="#60A5FA"/>
+    
+    <!-- Top left circuit -->
+    <path d="M40 40 L55 55"/>
+    <circle cx="37" cy="37" r="3" fill="#60A5FA"/>
+  </g>
+  
+  <!-- Main CE Letters -->
+  <g filter="url(#glow)">
+    <!-- Letter C -->
+    <path d="M55 70 
+             C55 55, 70 45, 90 45
+             L90 55
+             C75 55, 65 62, 65 75
+             L65 125
+             C65 138, 75 145, 90 145
+             L90 155
+             C70 155, 55 145, 55 130
+             Z" 
+          fill="url(#logoGradient)"/>
+    
+    <!-- Letter E -->
+    <path d="M100 45 
+             L145 45 
+             L145 55 
+             L110 55 
+             L110 95 
+             L140 95 
+             L140 105 
+             L110 105 
+             L110 145 
+             L145 145 
+             L145 155 
+             L100 155 
+             Z" 
+          fill="url(#logoGradient)"/>
+  </g>
+  
+  <!-- Deploy arrow integrated into design -->
+  <g fill="#60A5FA" opacity="0.9">
+    <path d="M150 75 L165 90 L155 90 L155 110 L145 110 L145 90 L135 90 Z" transform="rotate(-45 150 92)"/>
+  </g>
+  
+  <!-- Small connection dots on letters -->
+  <circle cx="90" cy="50" r="2" fill="#93C5FD"/>
+  <circle cx="90" cy="150" r="2" fill="#93C5FD"/>
+  <circle cx="145" cy="50" r="2" fill="#93C5FD"/>
+  <circle cx="145" cy="100" r="2" fill="#93C5FD"/>
+  <circle cx="145" cy="150" r="2" fill="#93C5FD"/>
+</svg>
